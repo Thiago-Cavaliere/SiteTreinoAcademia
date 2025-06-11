@@ -1,0 +1,32 @@
+{
+  "puxada aberta": {
+    "nome": "Puxada aberta",
+    "descricao": "Exercício para o peito realizado no banco reto com barra.",
+    "imagem": "https://www.mundoboaforma.com.br/wp-content/uploads/2020/12/costas-puxada-aberta-com-barra-no-pulley.gif"
+  },
+  "puxada unilateral": {
+    "nome": "puxada unilateral",
+    "descricao": "Trabalha a parte superior do peitoral com banco inclinado.",
+    "imagem": "https://static.wixstatic.com/media/2edbed_cf8feb6f79494833b887104bc358843d~mv2.gif"
+  },
+  "pulldown com corda": {
+    "nome": "Pulldown com corda",
+    "descricao": "Foca na parte inferior do peitoral.",
+    "imagem": "https://i.pinimg.com/originals/74/68/5a/74685a8a1b44b902c9d3ac1404844e88.gif"
+  },
+  "remada máquina articulada": {
+    "nome": "Remada máquina articulada",
+    "descricao": "Exercício de abertura com halteres no banco reto.",
+    "imagem": "https://media1.tenor.com/m/ft6FHrqty-8AAAAd/remada-pronada-maquina.gif"
+  },
+  "puxada invertida": {
+    "nome": "puxada invertida",
+    "descricao": "Versão inclinada do crucifixo para a parte superior do peito.",
+    "imagem": "https://www.mundoboaforma.com.br/wp-content/uploads/2023/04/02251301-puxada-invertida-na-maquina-de-cabos.gif"
+  },
+  "remada maquina": {
+    "nome": "Remada máquina",
+    "descricao": "Trabalha o peitoral e parte do serrátil anterior.",
+    "imagem": "https://www.mundoboaforma.com.br/wp-content/uploads/2021/09/remada-sentado-com-cabos-e-triangulo-para-costas.gif"
+  }
+}

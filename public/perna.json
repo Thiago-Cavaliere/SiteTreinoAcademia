@@ -1,0 +1,27 @@
+{
+  "Agachamento livre": {
+    "nome": "Agachamento livre",
+    "descricao": "Exercício para o peito realizado no banco reto com barra.",
+    "imagem": "https://www.hipertrofia.org/blog/wp-content/uploads/2018/10/agachamento.gif"
+  },
+  "Leg press": {
+    "nome": "Leg press",
+    "descricao": "Trabalha a parte superior do peitoral com banco inclinado.",
+    "imagem": "https://i.pinimg.com/originals/6e/77/3d/6e773d8f6913a93bf2a3e3d31e1e3f0f.gif"
+  },
+  "Cadeira flexora": {
+    "nome": "Cadeira flexora",
+    "descricao": "Foca na parte inferior do peitoral.",
+    "imagem": "https://www.hipertrofia.org/blog/wp-content/uploads/2024/12/cadeira-flexora.gif"
+  },
+  "Passada (ou avanço)": {
+    "nome": "Passada (ou avanço)",
+    "descricao": "Exercício de abertura com halteres no banco reto.",
+    "imagem": "https://www.hipertrofia.org/blog/wp-content/uploads/2023/12/dumbbell-lunge.gif"
+  },
+  "Cadeira extensora": {
+    "nome": "Cadeira extensora",
+    "descricao": "Exercício de abertura com halteres no banco reto.",
+    "imagem": "https://media.tenor.com/bqKtsSuqilQAAAAM/gym.gif"
+  }
+}

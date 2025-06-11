@@ -1,0 +1,33 @@
+.preguica {
+  background-color: #0f172a;
+  color: #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #f87171;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px black;
+}
+
+.imagem {
+  width: 300px;
+  max-width: 90%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.texto {
+  font-size: 20px;
+  line-height: 1.5;
+}
