@@ -1,5 +1,5 @@
 export default async function Treino() {
-  const response = await fetch("http://localhost:3000/costas.json");
+  const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/costas.json`);
   const data = await response.json();
   const costas = Object.values(data); // transforma em array para usar map
 
