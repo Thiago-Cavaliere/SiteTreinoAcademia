@@ -1,4 +1,5 @@
-CΛVΛLIΞRE 
+**CΛVΛLIΞRE** 
+
 # 🏋️‍♂️ SiteAcademia - Plataforma de Treinos
 
 Este projeto é um site de treinos desenvolvido com **Next.js**, idealizado para ajudar pessoas a organizarem seus treinos de musculação de forma simples e visual. Com ele, você encontra exercícios divididos por grupos musculares, imagens ilustrativas, descrição e uma interface divertida para motivar até os mais preguiçosos!
