@@ -14,6 +14,9 @@ Este projeto é um site de treinos desenvolvido com **Next.js**, idealizado para
 - Tailwind CSS (opcional)
 - JSON como banco de dados local
 - Imagens e GIFs para visualização dos exercícios
+- Link do projeto: <a href="https://gym-page-eight.vercel.app/" target="_blank" rel="noopener noreferrer">
+  Acessar Projeto
+</a>
 
 ![Demonstração do Projeto](./public/SiteAcademia.gif)
 
