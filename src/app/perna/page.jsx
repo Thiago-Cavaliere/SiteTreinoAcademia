@@ -1,7 +1,7 @@
-export default async function Perna() {
-  const response = await fetch("http://localhost:3000/perna.json");
-  const data = await response.json();
-  const perna = Object.values(data); // transforma em array para usar map
+import pernaData from '@/../public/perna.json'; 
+
+export default function Perna() {
+  const perna = Object.values(pernaData); 
 
   return (
     <main className="p-4 bg-gray-100 min-h-screen">

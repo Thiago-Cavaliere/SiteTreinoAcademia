@@ -1,7 +1,7 @@
-export default async function Treino() {
-  const response = await fetch("http://localhost:3000/peito.json");
-  const data = await response.json();
-  const peito = Object.values(data); // transforma em array para usar map
+import peitoData from '@/../public/peito.json'; 
+
+export default function Treino() {
+  const peito = Object.values(peitoData); 
 
   return (
     <main className="p-4 bg-gray-100 min-h-screen">

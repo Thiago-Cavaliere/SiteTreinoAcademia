@@ -1,7 +1,7 @@
-export default async function Treino() {
-  const response = await fetch("http://localhost:3000/ombro.json");
-  const data = await response.json();
-  const ombro = Object.values(data); // transforma em array para usar map
+import ombroData from "@/../public/ombro.json";
+
+export default function Treino() {
+  const ombro = Object.values(ombroData);
 
   return (
     <main className="p-4 bg-gray-100 min-h-screen">
@@ -24,4 +24,3 @@ export default async function Treino() {
     </main>
   );
 }
-
