@@ -1,7 +1,7 @@
-export default async function Treino() {
-  const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/costas.json`);
-  const data = await response.json();
-  const costas = Object.values(data); // transforma em array para usar map
+import costasData from '@/../public/costas.json';
+
+export default function Treino() {
+  const costas = Object.values(costasData);
 
   return (
     <main className="p-4 bg-gray-100 min-h-screen">
@@ -10,14 +10,15 @@ export default async function Treino() {
         {costas.map((item, index) => (
           <div
             key={index}
-            className="bg-white shadow-md rounded p-4 w-60 flex flex-col items-center"
+            className="bg-white shadow-md rounded p-4 w-72 flex flex-col items-center"
           >
             <img
               src={item.imagem}
               alt={item.nome}
-              className="w-48 h-auto mb-2 rounded"
+              className="w-full h-48 object-cover mb-3 rounded"
             />
-            <p className="text-lg font-semibold text-center">{item.nome}</p>
+            <p className="text-lg font-bold text-center">{item.nome}</p>
+            <p className="text-sm text-gray-600 text-center mt-1">{item.descricao}</p>
           </div>
         ))}
       </div>
