@@ -4,6 +4,9 @@ import "./globals.css";
 export const metadata = {
   title: "Exercícios para academia!",
   description: "Seu site facil para aprender os exercícios!",
+  icons: {
+    icon: "/icone.png",
+  },
 };
 
 export default function RootLayout({ children }) {
